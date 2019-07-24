@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'LandingController')->name('landing');
+
+Route::get('quote', 'QuoteController')->name('quote');
